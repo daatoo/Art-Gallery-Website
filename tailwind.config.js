@@ -6,6 +6,10 @@ module.exports = {
       screens: {
         'des': '1440px',
       },
+      fontFamily: {
+        'BigShoulders': ['Big Shoulders Display'],
+        'Outfit': ['Outfit'],
+      },
     },
 
   },
