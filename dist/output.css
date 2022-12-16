@@ -980,6 +980,10 @@ video {
     flex-direction: row-reverse;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
   .md\:items-center {
     align-items: center;
   }
@@ -1039,6 +1043,14 @@ video {
   .md\:pb-\[80px\] {
     padding-bottom: 80px;
   }
+
+  .md\:text-\[70px\] {
+    font-size: 70px;
+  }
+
+  .md\:leading-\[70px\] {
+    line-height: 70px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -1052,6 +1064,10 @@ video {
 
   .des\:right-\[-285px\] {
     right: -285px;
+  }
+
+  .des\:left-\[156px\] {
+    left: 156px;
   }
 
   .des\:mr-\[160px\] {
@@ -1070,6 +1086,14 @@ video {
     height: 377px;
   }
 
+  .des\:min-h-\[56px\] {
+    min-height: 56px;
+  }
+
+  .des\:min-h-\[58px\] {
+    min-height: 58px;
+  }
+
   .des\:w-full {
     width: 100%;
   }
@@ -1084,6 +1108,10 @@ video {
 
   .des\:w-\[430px\] {
     width: 430px;
+  }
+
+  .des\:w-\[450px\] {
+    width: 450px;
   }
 
   .des\:min-w-\[540px\] {
@@ -1102,8 +1130,24 @@ video {
     min-width: 1800px;
   }
 
+  .des\:min-w-\[160px\] {
+    min-width: 160px;
+  }
+
   .des\:max-w-\[1800px\] {
     max-width: 1800px;
+  }
+
+  .des\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .des\:max-w-\[4\] {
+    max-width: 4;
+  }
+
+  .des\:max-w-\[450px\] {
+    max-width: 450px;
   }
 
   .des\:translate-x-0 {
@@ -1142,6 +1186,23 @@ video {
     padding-right: 165px;
   }
 
+  .des\:py-\[80px\] {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .des\:pt-\[105px\] {
+    padding-top: 105px;
+  }
+
+  .des\:pb-\[128px\] {
+    padding-bottom: 128px;
+  }
+
+  .des\:pt-\[80px\] {
+    padding-top: 80px;
+  }
+
   .des\:text-\[22px\] {
     font-size: 22px;
   }
@@ -1150,11 +1211,32 @@ video {
     font-size: 60px;
   }
 
+  .des\:text-\[70px\] {
+    font-size: 70px;
+  }
+
+  .des\:text-\[36px\] {
+    font-size: 36px;
+  }
+
+  .des\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .des\:leading-8 {
     line-height: 2rem;
   }
 
   .des\:leading-\[60px\] {
     line-height: 60px;
+  }
+
+  .des\:leading-\[70px\] {
+    line-height: 70px;
+  }
+
+  .des\:leading-9 {
+    line-height: 2.25rem;
   }
 } 
