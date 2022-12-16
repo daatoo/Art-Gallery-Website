@@ -5,13 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
+    crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap'); </style>
     <title>Document</title>
 </head>
 <body>
     <section class="w-full">
-        <div class="flex justify-center absolute left-[-50%] ml-[50%]">
-            <img src="../src/img/Location.png" class="w-[1207px] h-[574px] " alt="">
+        <div class="flex w-screen items-center justify-center overflow-x-hidden ">
+            <div class="overflow-x-hidden flex justify-center items-center">
+                <a href="../src/index.html" class="absolute left-0 top-0"><button class="flex cursor-pointer">
+                    <div class="w-[56px] h-[72px] bg-[#D5966c] flex justify-center items-center">
+                        <img src="../src/img/Arrow2.png" alt="">
+                    </div>
+                    <div class="w-[204px] h-[72px] bg-[#151515] flex justify-center items-center">
+                        <h3 class="font-extrabold text-xl leading-6 tracking-[3.63636px] text-white font-BigShoulders">BACK TO HOME</h3>
+                    </div>
+                </button></a>
+                <img src="../src/img/Location.png" class="w-[1207px] min-w-[1207px] h-[574px] " alt="">
+                <div class="flex flex-col justify-center items-center absolute">
+                    <div class="w-[66px] h-[56px] bg-[#151515] flex justify-center items-center">
+                        <div class="w-6 h-6 rounded-[50%] bg-[#D5966C]"></div>
+                    </div>
+                    <div class="w-0 h-0 border-l-[12px] border-solid border-l-transparent border-r-[12px] border-r-transparent border-t-[32px] border-t-[#151515] "></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="w-full bg-[#151515]">
+        <div class="w-full px-4 pt-12 pb-14 flex flex-col gap-12">
+            <h2 class="font-black text-[50px] leading-[45px] font-BigShoulders text-white">
+                OUR LOCATION</h2>
+            <div class="flex flex-col gap-5">
+                <h3 class="font-black text-[32px] leading-8 uppercase text-[#D5966C]">99 King Street</h3>
+                <p class="font-light text-lg leading-7 text-white font-Outfit ">Newport<br>
+                    RI 02840<br>
+                    United States of America</p>
+                <p class="font-light text-lg leading-7 text-white font-Outfit ">
+                    Our newly opened gallery is located near the Edward 
+                    King House on 99 King Street, the Modern Art Gallery 
+                    is free to all visitors and open seven days a week from
+                     8am to 9pm.</p>
+            </div>
+        </div>
+    </section>
+    <section class="w-full bg-[#D5966C]">
+        <div class="w-full flex flex-col gap-9 px-8 py-12">
+            <img src="../src/img/MODERNARTGALLERY-Black.png" class="max-w-[110px]" alt="">
+            <p class="font-light text-base leading-[26px] text-[#151515] font-Outfit ">
+                The Modern Art Gallery is free to all visitors
+                 and open seven days a week from 8am to 9pm. Find
+                  us at 99 King Street, Newport, USA.
+            </p>
+            <div class="flex gap-5 max-h-5">
+                <img src="../src/img/Fb-Icon-Black.png" alt="">
+                <img src="../src/img/IG-Icon-Black.png" alt="">
+                <img src="../src/img/Twitter-Icon-Black.png" alt="">
+            </div>
         </div>
     </section>
 </body>
