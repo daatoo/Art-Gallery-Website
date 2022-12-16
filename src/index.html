@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
     crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
     <style> @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap'); </style>
-    <title>Document</title>
+    <title>Art Gallery</title>
 </head>
 <body>
     <header class="flex flex-col justify-center md:flex-row gap-8 md:gap-0 w-full">
@@ -26,11 +26,11 @@
                 <p class="font-light text-lg des:text-[22px] leading-7 des:leading-8 text-DarkGrey w-full font-Outfit">The arts in the collection of the Modern Art Gallery all started from
                      a spark of inspiration. Will these pieces inspire you? Visit us and
                       find out.</p>
-                <a href="../src/Location.html"><button class="flex cursor-pointer">
-                    <div class="w-[204px] h-[72px] bg-AlmostBlack flex justify-center items-center">
+                <a href="../src/Location.html"><button id="Button" class="flex cursor-pointer">
+                    <div id="LocationBtn"  class="w-[204px] h-[72px] bg-AlmostBlack flex justify-center items-center transition">
                         <h3 class="font-extrabold text-xl leading-6 tracking-[3.63636px] text-white font-BigShoulders">OUR LOCATION</h3>
                     </div>
-                    <div class="w-[56px] h-[72px] bg-Gold flex justify-center items-center">
+                    <div id="LocationArrow" class="w-[56px] h-[72px] bg-Gold flex justify-center items-center transition">
                         <img src="../src/img/pathArrow.png" alt="">
                     </div>
                 </button></a>
@@ -90,5 +90,6 @@
             </div>
         </div>
     </footer>
+    <script src="../src/index.js"></script>
 </body>
 </html>

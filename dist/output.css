@@ -730,7 +730,7 @@ video {
   border-top-color: rgb(21 21 21 / var(--tw-border-opacity));
 }
 
-.bg-\[\#D5966c\] {
+.bg-Gold {
   --tw-bg-opacity: 1;
   background-color: rgb(213 150 108 / var(--tw-bg-opacity));
 }
@@ -740,24 +740,14 @@ video {
   background-color: rgb(21 21 21 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#D5966C\] {
+.bg-AlmostBlack {
   --tw-bg-opacity: 1;
-  background-color: rgb(213 150 108 / var(--tw-bg-opacity));
+  background-color: rgb(21 21 21 / var(--tw-bg-opacity));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-Gold {
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 150 108 / var(--tw-bg-opacity));
-}
-
-.bg-AlmostBlack {
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 21 21 / var(--tw-bg-opacity));
 }
 
 .px-4 {
@@ -881,7 +871,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#D5966C\] {
+.text-Gold {
   --tw-text-opacity: 1;
   color: rgb(213 150 108 / var(--tw-text-opacity));
 }
@@ -891,9 +881,9 @@ video {
   color: rgb(21 21 21 / var(--tw-text-opacity));
 }
 
-.text-\[\#444444\] {
+.text-AlmostBlack {
   --tw-text-opacity: 1;
-  color: rgb(68 68 68 / var(--tw-text-opacity));
+  color: rgb(21 21 21 / var(--tw-text-opacity));
 }
 
 .text-DarkGrey {
@@ -901,18 +891,16 @@ video {
   color: rgb(68 68 68 / var(--tw-text-opacity));
 }
 
-.text-Gold {
-  --tw-text-opacity: 1;
-  color: rgb(213 150 108 / var(--tw-text-opacity));
-}
-
-.text-AlmostBlack {
-  --tw-text-opacity: 1;
-  color: rgb(21 21 21 / var(--tw-text-opacity));
-}
-
 .mix-blend-difference {
   mix-blend-mode: difference;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 @media (min-width: 768px) {
