@@ -561,10 +561,6 @@ video {
   height: 72px;
 }
 
-.h-\[574px\] {
-  height: 574px;
-}
-
 .h-\[56px\] {
   height: 56px;
 }
@@ -585,12 +581,12 @@ video {
   max-height: 1.25rem;
 }
 
-.w-full {
-  width: 100%;
+.max-h-10 {
+  max-height: 2.5rem;
 }
 
-.w-screen {
-  width: 100vw;
+.w-full {
+  width: 100%;
 }
 
 .w-\[56px\] {
@@ -637,20 +633,20 @@ video {
   min-width: 1207px;
 }
 
-.max-w-\[430px\] {
-  max-width: 430px;
-}
-
 .max-w-\[110px\] {
   max-width: 110px;
 }
 
-.cursor-pointer {
-  cursor: pointer;
+.max-w-\[430px\] {
+  max-width: 430px;
 }
 
-.flex-row {
-  flex-direction: row;
+.grow {
+  flex-grow: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -663,6 +659,18 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
 }
 
 .gap-8 {
@@ -683,18 +691,6 @@ video {
 
 .gap-\[38px\] {
   gap: 38px;
-}
-
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-12 {
-  gap: 3rem;
-}
-
-.gap-9 {
-  gap: 2.25rem;
 }
 
 .overflow-x-hidden {
@@ -754,14 +750,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-12 {
@@ -774,25 +770,8 @@ video {
   padding-right: 1.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pb-7 {
-  padding-bottom: 1.75rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
 }
 
 .pb-14 {
@@ -820,15 +799,6 @@ video {
   font-size: 32px;
 }
 
-.text-\[96px\] {
-  font-size: 96px;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -837,6 +807,15 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-\[96px\] {
+  font-size: 96px;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-extrabold {
@@ -867,20 +846,20 @@ video {
   line-height: 2rem;
 }
 
-.leading-\[88px\] {
-  line-height: 88px;
-}
-
-.leading-\[55px\] {
-  line-height: 55px;
-}
-
 .leading-7 {
   line-height: 1.75rem;
 }
 
 .leading-\[26px\] {
   line-height: 26px;
+}
+
+.leading-\[88px\] {
+  line-height: 88px;
+}
+
+.leading-\[55px\] {
+  line-height: 55px;
 }
 
 .tracking-\[3\.63636px\] {
@@ -907,22 +886,25 @@ video {
   color: rgb(68 68 68 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .mix-blend-difference {
   mix-blend-mode: difference;
 }
 
 @media (min-width: 768px) {
+  .md\:left-\[45px\] {
+    left: 45px;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
 
   .md\:mr-\[68px\] {
     margin-right: 68px;
+  }
+
+  .md\:ml-\[68px\] {
+    margin-left: 68px;
   }
 
   .md\:flex {
@@ -953,6 +935,10 @@ video {
     width: 281px;
   }
 
+  .md\:min-w-\[1440px\] {
+    min-width: 1440px;
+  }
+
   .md\:min-w-\[768px\] {
     min-width: 768px;
   }
@@ -971,6 +957,14 @@ video {
 
   .md\:max-w-\[437px\] {
     max-width: 437px;
+  }
+
+  .md\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
+  .md\:max-w-\[300px\] {
+    max-width: 300px;
   }
 
   .md\:-translate-x-12 {
@@ -1029,6 +1023,22 @@ video {
     padding-left: 39px;
     padding-right: 39px;
   }
+
+  .md\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .md\:pt-\[88\[x\]\] {
+    padding-top: 88[x];
+  }
+
+  .md\:pt-\[88px\] {
+    padding-top: 88px;
+  }
+
+  .md\:pb-\[80px\] {
+    padding-bottom: 80px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -1060,6 +1070,10 @@ video {
     height: 377px;
   }
 
+  .des\:w-full {
+    width: 100%;
+  }
+
   .des\:w-\[350px\] {
     width: 350px;
   }
@@ -1074,6 +1088,22 @@ video {
 
   .des\:min-w-\[540px\] {
     min-width: 540px;
+  }
+
+  .des\:min-w-\[1\] {
+    min-width: 1;
+  }
+
+  .des\:min-w-\[1600px\] {
+    min-width: 1600px;
+  }
+
+  .des\:min-w-\[1800px\] {
+    min-width: 1800px;
+  }
+
+  .des\:max-w-\[1800px\] {
+    max-width: 1800px;
   }
 
   .des\:translate-x-0 {
